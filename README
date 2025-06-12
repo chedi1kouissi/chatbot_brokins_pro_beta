@@ -1,0 +1,76 @@
+# 🧠 Brokins Insurance Chatbot
+
+A production-ready, AI-powered chatbot built to assist users with insurance-related questions based on official documents and website content from **Brokins.fr** and its insurance partners (Cardif, APRIL, AFI ESCA, Generali, etc.).
+
+This project uses a **modular Retrieval-Augmented Generation (RAG)** architecture with **Google Gemini models** to provide accurate, document-grounded responses.
+
+---
+
+## 🚀 Features
+
+- ✅ Answers based on real insurance contracts and website content
+- ✅ Multi-submodel architecture for high-precision chunk routing
+- ✅ Final decision model (Gemini 2.0 Flash) synthesizes responses
+- ✅ Document chunking for large PDF ingestion
+- ✅ Web-embeddable UI with image input support
+- ✅ Language: **French** (100% localized)
+- ✅ 100% digital and privacy-aware
+
+---
+
+## 📁 Project Structure
+
+insurance-bot/
+│
+├── app/
+│ ├── app.py # Flask API server
+│ ├── gemini_router.py # Submodel logic per chunk range
+│ ├── prompts.py # System & user prompts
+│ ├── chunk_utils.py # PDF chunking and saving logic
+│ ├── config.py # API keys and constants
+│ └── templates/chat.html # Frontend UI
+│
+├── data/
+│ ├── full_document.pdf # Combined insurance data
+│ └── pdf_chunks/ # Chunked text files
+│
+├── static/
+│ └── style.css # Optional CSS for UI
+│
+├── run.py # Entry point
+├── requirements.txt # Dependencies
+└── README.md # Project documentation
+
+
+
+## 🧠 Architecture
+
+**Multi-Expert RAG Pipeline**
+1. PDF is chunked into semantically meaningful sections.
+2. Each Gemini submodel reads a different chunk range (e.g., 5–10 pages).
+3. Relevant responses are collected and passed to a final model.
+4. Final model generates a professional, document-grounded answer.
+
+**Model Configuration:**
+- Submodels: `gemini-2.5-flash`
+- Final model: `gemini-2.0-flash` (or upgraded if available)
+- Token limit handling and fallback logic included
+
+
+## 🔧 Installation
+
+
+✅ Data Sources
+chatbot_brokins.pdf (merged and structured from official PDFs)
+
+brokins.fr scraped content (company profile, services, contacts, business hours)
+
+Public contract information from APRIL, Cardif, Generali, AFI ESCA, etc.
+
+🛡️ Disclaimer
+This project is for informational purposes only and should not be considered a substitute for professional financial or legal advice. All data is sourced from publicly available material and used within the boundaries of fair use and data privacy standards.
+
+📬 Questions?
+Reach out to the project owner or file an issue. Contributions welcome!
+
+Let me know if you'd like me to customize the links, badges, or turn this into a multilingual README (EN/FR).

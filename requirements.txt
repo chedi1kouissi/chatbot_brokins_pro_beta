@@ -1,0 +1,14 @@
+flask
+flask-session 
+google-generativeai 
+markdown
+pandas
+PyPDF2
+flask_cors
+python-dotenv
+
+
+
+
+
+
