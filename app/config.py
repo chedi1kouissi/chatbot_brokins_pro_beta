@@ -14,4 +14,4 @@ MAX_TOKENS = 4096
 # Chunk config
 CHUNK_FOLDER = "data/pdf_chunks"
 NUM_SUBMODELS = 6
-CHUNKS_PER_MODEL = 4
+CHUNKS_PER_MODEL = 2

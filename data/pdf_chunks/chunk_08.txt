@@ -1,117 +1,203 @@
-Option “Rachat dos et psy”  
-• Couvre affect ions vertébrales & psychiatriques sans hospitalisation  
-  Exemples : hernie discale, 
-lombalgie, burn -out, schizophrénie, TOC, etc.  
-• Souscription uniquement à l’adhésion (ou dans les 6 mois si exigée par la banque)  
-   
-Franchises & délais  
-• Franchises dispo nibles : 30, 60, 90, 120, 180 jours  o  90 j minimum en cas d’adhésion sans sélection 
-médicale  
-• Délai d’attente : 3 mois  si le prêt est en cours et jamais assuré auparavant  
-• Rechutes prises en charge si < 2 mois après reprise  
-   
-Cotisation  
-• Mode CRD ou Li néaire  
-• Base : montant garanti, durée, âge  
-• Paiement : mensuel, trimestriel ou annuel (par prélèvement UE)  
-• Exonération des cotisations  en cas de sinistre ITT/IPT/IPP
+=== APICIL – Assurance Crédit ===
+Présentation Générale
+Nom du contrat : APICIL Assurance Emprunteur
+Assureur : APICIL Mutuelle
+Courtier : TWINSEO
+Offre 100 % digitale, modulable et conforme aux exigences des banques.
+Clientèle cible
+•	Emprunteurs de 18 à 85 ans (décès), jusqu’à 65 ans (garanties complémentaires).
+•	Tout type de prêts : amortissable, in fine, crédit-bail, relais, professionnels.
+•	Montant du prêt : de 17 000 € à 10 000 000 €.
+•	Quotité assurée : jusqu’à 100 % par emprunteur.
+Inéligibilité
+•	Absence de formalités médicales imposées hors critères (cf. Loi Lemoine).
+•	Assurabilité conditionnée pour certains sports et métiers à risques.
+•	Refus possible si absence de données médicales obligatoires.
+________________________________________
+Garanties proposées
+Garantie	Âge max souscription	Âge max couverture	Détails de la prestation
+Décès	79 ans	85 ans	Capital restant dû versé
+PTIA	65 ans	71 ans	Identique au décès
+ITT	65 ans	71 ans	Mensualités jusqu’à 16 000 €/mois, forfaitaire, franchises de 30 à 180 jours
+IPT	65 ans	71 ans	Idem ITT
+IPP	65 ans	71 ans	Forfaitaire, selon le taux d’invalidité
+IPPRO	65 ans	71 ans	Réservée aux professions médicales (sur devis personnalisé)
+Option de rachat des exclusions pour : affections dorsales, psychiatriques, zones géographiques, et sports à risques.
+________________________________________
+Prestations incluses
+•	Franchise : 30, 60, 90, 120 ou 180 jours (minimum 30 j pour rachat exclusions).
+•	Quotité modulable.
+•	Couverture possible pour assurés sans activité pro à la date du sinistre (sous conditions).
+•	Mi-temps thérapeutique couvert (sous conditions médicales).
+________________________________________
+Tarification
+•	Tarifs fixes ou CRD.
+•	Tarification personnalisée.
+•	Garantie du tarif sur toute la durée du contrat.
+•	Possibilité de modulation des commissions dès la première année.
+•	Réduction automatique sur profils jeunes / sans risque aggravé.
+•	Commission : 40 % (année 1), 10 % (à partir de l’année 2).
+________________________________________
+Formalités médicales
+•	Sans formalité : si < 46 ans et prêt < 1 000 000 €.
+•	Examen simplifié sinon, avec centre agréé (ARM, CBSA, Vitton).
+•	Réponse sous 24 h ouvrées si dossier complet.
+•	Validité : 4 mois pour le questionnaire de santé, jusqu’à 12 mois pour les examens médicaux.
+________________________________________
+Vie du contrat
+•	Souscription en ligne : espace client sécurisé.
+•	Résiliation : à tout moment (Loi Lemoine) ou à échéance (préavis 2 mois).
+•	Assistance juridique en cas de refus bancaire.
+•	Documents de suivi accessibles en ligne (fiche info, certificats, échéancier...).
+________________________________________
+Déclaration de sinistres
+•	Délai de déclaration : 30 jours après la franchise.
+•	Dépôt via espace sécurisé ou email dédié.
+•	Documents requis selon sinistre : certificats, décomptes, attestation prêt...
+•	Rechute : nouveau dossier à déposer si > 2 mois.
+________________________________________
+Particularités & options
+•	Prêts assurables jusqu’à 30 ans (amortissable / crédit-bail), 20 ans (in fine), 3 ans (relais).
+•	ITT / IPT jusqu’à 16 000 €/mois possible.
+•	Possibilité de changer d’assurance facilement (APICIL prend en charge la substitution).
+•	Accompagnement personnalisé pour les gros capitaux ou profils à risques.
 
-25  
-  Couverture territoriale   
-• Monde entier (avec constat médical local ou en France)   
-• Taux de change géré pour les prêts en francs suisses   
-• Indemnisation en euros uniquement   
-   
-Exclusions principales   
-• Suicide (1re année sauf résidence principale ≤ 120 000 €)   
-• Affections psychiatriques et dorsales (sauf rachat ou > 8 j d’hospitalisation )   
-• Sports à moteur ou extrêmes (sauf déclaration acceptée)   
-• État d’ébriété, usage de stupéfiants, guerres, tentatives de suicide   
-• Activité non déclarée ou antécédents non révélés   
-• Radiations atomiques (hors traitement médical)   
- Informations générales    
-Montant  
-Contrat   Assureur  Mode   Durée max.  Notes  max.   
-MNCap  
-Linéaire   Capital  
-MNCap Assurances   
-initial   Jusqu'à 5 000 Jusqu'à 360 Emprunteur de 18 à 80  
-000 €  mois   ans   
-Fidelidade  
-Premium   Fidelidade Companhia  
-CRD  
-de Seguros S.A.   Jusqu'à 2 000  Contrat portugais  
-360 mois   
-000 €   distribué via UTWIN   
-Prévoir Elit  
-CRD   PRÉVOIR VIE  CRD   Jusqu'à 10  480 mois  Inclut Garantie 
-Aide à 000 000 €  (40 ans)   la Famille 
-et GIS   
-   
-Conditions d’adhésion   
-• Personne physique de 18 à 80 ans (selon garantie)  
-   Résidence UE, DOM -TOM, Monaco, etc.   
-• Souscription possible sans formalités médicales dans certains cas (Loi Lemoine)  
-   Prêts acceptés : 
-amortissables, in fine, relais, achat -revente, taux fixe/variable  
-   Prêts exclus : crédits conso, 
-Europlan, viagers, prêts > 40 ans, etc.   
-   
-Garanties proposées (selon contrat)  
-Garantie  MNCap  Fidelidade  Prévoir  
-Décès  ✔ ✔  ✔
-
-26  
-  Garantie  MNCap  Fidelidade  Prévoir  
-PTIA  ✔  ✔  ✔  
-ITT  ✔  ✔  ✔  
-IPT  ✔  ✔  ✔  
-IPP  ✔  ✔  ✔  
-Aide à la famille (GAF)  ❌  ❌  ✔  
-Invalidité Spécifique (GIS) ❌  ✔ (via AERAS) ✔  
-Affections dos/psy  Option Option  Option  
-   
-Franchises et indemnisation  
-• Franchises au cho ix : 30, 60, 90, 120, 180 jours   
-• Franchise minimum : 90 jours si pas de sélection médicale  
-• Rechute : reprise sans nouvelle franchise si reprise < 2 mois  
-   
- Modalités financières  
-• Cotisations : linéaires ou CRD selon contrat  
-• Paiement : mensuel, trimest riel, annuel  
-• Exonération possible en cas d’ITT/IPT/IPP  
-• Majoration selon profession, âge, état de santé  
-   
-Exclusions majeures  
-• Suicide (1re année sauf prêt résidence principale)  
-• Affections dorsales ou psychiatriques (sauf option ou hospitalisation lon gue) 
-   Sports extrêmes, sports à 
-moteur, aviation, etc.  
-• Conduite en état d’ivresse ou sous stupéfiants  
-• Pathologies antérieures non déclarées  
-• Risques de guerre ou nucléaire  
-Changement d’assurance emprunteur  
-Démarches en cas de délégation bancaire (cha ngement avec délégation)  
-• UTWIN envoie un SMS sous 48h  après signature du contrat.
-
-27  
-  • UTWIN adresse à la banque par recommandé :  
-o Le mandat de substitution  
-o La notice d'information o  Le certificat d'adhésion o  La 
-délégation de bénéfice  
-• La banque a 10 jour s pour répondre  : o  Pas de réponse = acceptation tacite   
-o Refus = la banque doit motiver par écrit (vous pouvez contester) o 
- Acceptation = vous recevez un avenant à l’offre de prêt 
-  
- Vous devez : o  Signer et renvoyer l’avenant à votre banque après 
-le délai légal de 10 jours  o  L’envoyer aussi à UTWIN par email pour 
-activer votre contrat  
-• Tant que l’avenant n’est pas signé, la banque continue les anciens prélèvements 
-utwin_ec_change ment_ass…utwin_ec_changement_ass…  
-   
-Démarches en cas de changement sans délégation bancaire  
-• Même processus, mais sans délégation de bénéfice .  
-• UTWIN prend en charge l'envoi des documents.  
-• Vous devez impérativement transmettre l’avenant signé à UTWIN p our activer la prise d’effet du nouveau 
-contrat.  
-   
+Nom du contrat : APICIL Assurance Emprunteur
+Produit collectif à adhésion facultative – Assuré par APICIL Mutuelle – Gestion TWINSEO
+________________________________________
+Clientèle cible
+•	Personnes physiques : 18 à 85 ans (Décès), 18 à 65 ans (garanties complémentaires)
+•	Personnes morales (SCI, entreprises) sous conditions
+•	Résidants : France métropolitaine, DROM (hors Mayotte pour certaines garanties), Monaco
+•	Montant assuré : de 17 000 € à 10 000 000 €
+________________________________________
+Inéligibilité
+•	Résidence hors France, Mayotte (pour certaines garanties)
+•	Emprunteurs > 80 ans (Décès) ou > 66 ans (autres garanties)
+•	Profession non éligible à IPPRO
+•	Sports ou professions à risques non déclarés
+•	Absence d’activité pro (hors Loi Lemoine ou cas spécifiques)
+________________________________________
+Prêts couverts
+•	Amortissable : ≤ 480 mois
+•	In fine : ≤ 240 mois
+•	Crédit-bail / Pro : ≤ 360 mois
+•	Relais : ≤ 36 mois
+•	Regroupement : ≥ 60 % de prêt immobilier
+________________________________________
+Garanties proposées
+Garanties obligatoires
+•	Décès (jusqu’à 85 ans) : capital restant dû
+•	PTIA (jusqu’à 71 ans) : identique décès, assistance requise
+Garanties complémentaires (jusqu’à 65/67/71 ans)
+•	ITT : incapacité temporaire de travail (forfaitaire – max 16 000 €/mois)
+•	IPT : invalidité permanente ≥ 66 %
+•	IPP : invalidité partielle 33–66 % (50 % de la prestation ITT)
+•	IPPRO : professions médicales uniquement (remboursement du CRD)
+Options
+•	Renfort dos et psy : suppression des conditions d’hospitalisation
+•	Rachat d’exclusions : sports à risques, zones géographiques
+•	Exonération de cotisation pendant sinistre (optionnelle)
+•	Mi-temps thérapeutique : 50 % sur 12 mois (inclus)
+________________________________________
+Tarification
+•	Prime linéaire sur toute la durée
+•	Cotisation selon âge, capital, profession, options, statut fumeur
+•	Fréquence : mensuelle, trimestrielle, annuelle
+•	Coût minimum global : inclut 1,50 € de cotisation APICIL UPESE
+•	TSCA : 9 % de la mensualité
+________________________________________
+Formalités médicales
+Âge / Capital	Formalité
+< 46 ans et < 250 000 €	Questionnaire simple
+> 250 000 € ou > 46 ans	QS + examens (BIO, PSA, ECG, RMCV...)
+> 2 000 000 €	Sélection financière obligatoire
+•	Validité : 6 mois max
+•	Questionnaire de santé simplifié pour prêt < 200 000 € + fin avant 60 ans (Loi Lemoine)
+•	Centres partenaires : ARM, CBSA, Vitton (sans avance de frais)
+________________________________________
+Franchises & Rechute
+•	Choix : 30, 60, 90, 120, 180 jours
+•	Minimum : 90 jours si pas de sélection médicale ou inactivité
+•	Rechute : pas de nouvelle franchise si < 4 mois
+________________________________________
+Territorialité
+•	Couverture : Monde entier
+•	Professions spécifiques ou séjours longs > 60 jours : étude préalable requise
+________________________________________
+Résiliation
+•	À tout moment via Loi Lemoine ou à échéance avec préavis 2 mois
+•	APICIL gère la substitution auprès de l’ancien assureur et/ou banque
+•	Refus bancaire = assistance juridique (via gestion@apicil-emprunteur.com)
+________________________________________
+Exclusions majeures
+•	Suicide 1ère année (hors RP)
+•	Sports non déclarés ou pros (Base jump, Wing suit, plongée > 20m...)
+•	Troubles psy/dorsaux sans hospitalisation (hors option rachat)
+•	États antérieurs non déclarés, alcoolémie, stupéfiants
+•	Professions non assurables : armée, aviation hors ligne, humanitaire, etc.
+________________________________________
+Souscription & Vie du contrat
+•	100 % digitale : devis, signature, pièces en ligne
+•	Délai max de signature offre de prêt : 6 mois
+•	Prise d’effet à la date de l’offre ou de l’échéance substituée
+•	Durée : jusqu’à la fin du prêt ou des garanties souscrites
+•	Modifications à signaler sous 60 jours (prêt, RIB, situation…)
+Définitions importantes (extraits clés)
+•	Accident : Atteinte corporelle soudaine, imprévisible, due à une cause extérieure.
+•	Assureur : APICIL Mutuelle.
+•	ITT : Incapacité Temporaire Totale → état médicalement constaté d’impossibilité totale et continue d’exercer son activité pro ou les activités de la vie courante.
+•	IPT : Invalidité Permanente Totale ≥ 66 %.
+•	IPP : Invalidité Permanente Partielle entre 33 % et 66 %.
+•	PTIA : Perte Totale et Irréversible d’Autonomie.
+•	IPPRO : Invalidité Professionnelle spécifique aux professions médicales (soumise à expertise professionnelle).
+________________________________________
+Garanties proposées
+Obligatoires
+•	Décès : Remboursement du capital restant dû à la date du décès.
+•	PTIA : Identique à la garantie Décès (sous condition d’assistance tierce personne pour 3/4 actes de la vie).
+Complémentaires (si souscrites)
+•	ITT : Prise en charge forfaitaire des échéances, selon quotité.
+•	IPT : Taux ≥ 66 %, avec franchise.
+•	IPP : Prise en charge partielle (soumise à franchise), taux 33 % à 66 %.
+•	IPPRO : Médecins, dentistes, pharmaciens, etc., selon leur activité. Déclenchement dès 15 %, 33 % ou 66 % (selon niveau).
+________________________________________
+Durée de couverture
+Garantie	Âge maximum
+Décès	Jusqu’à 85 ans
+PTIA	Jusqu’à 71 ans
+ITT / IPT / IPP / IPPRO	Jusqu’à 65, 67 ou 71 ans selon l’activité pro effective
+________________________________________
+Modalités
+•	Franchise : 30, 60, 90, 120, 180 jours (selon sélection médicale).
+•	Prise en charge : Jusqu’à 16 000 €/mois forfaitaires.
+•	Mi-temps thérapeutique : Couverture à 50 % sur 12 mois maximum.
+•	Rechute : Pas de nouvelle franchise si arrêt dans les 60 jours après reprise.
+________________________________________
+Tarification
+•	Calculée sur capital initial (linéaire), ou capital restant dû.
+•	TSCA : 9 % de la cotisation.
+•	Cotisations prélevées mensuellement, trimestriellement ou annuellement.
+•	Prime constante sur toute la durée du prêt.
+________________________________________
+Formalités médicales
+•	Selon l’âge de l’emprunteur et le montant assuré :
+o	< 200 000 € : Aucune formalité (Loi Lemoine).
+o	200 000 € : Questionnaire + examens (BIO, PSA, ECG, TCU, RMCV…).
+•	Sélection financière à partir de 2 M€ ou 550 €/j d’ITT/IPT.
+________________________________________
+Exclusions principales
+•	Suicide (sauf prêt résidence principale).
+•	Maladies non déclarées / antérieures.
+•	Troubles psy et dorsaux sans hospitalisation (hors option).
+•	Sports à risques non déclarés.
+•	Alcool / stupéfiants / conduite dangereuse.
+•	Professions interdites ou non déclarées (armée, sports pro, etc.).
+________________________________________
+Particularités
+•	Rachat dos & psy en option.
+•	Option exonération cotisations pendant sinistre.
+•	Substitution accompagnée par APICIL (dossier, avenant, lettre AR).
+•	Résiliation possible à tout moment (Loi Lemoine).
+•	Gestion des sinistres et contrats via TWINSEO.
+•	Garanties valables dans le monde entier, déclenchement possible depuis l’étranger.

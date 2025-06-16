@@ -1,107 +1,272 @@
-dû   
-• Exonération cotisation  : % des autres cotisations (franchise 30 j = +250 % ; 180 j = -15 %)   
-• Fréquence de paiement : mensuelle, trimestrielle, semestrielle, annuelle  
-   Frais de dossier  : jusqu’à 
-300 €
-
-17  
-     
-Fiscalité  
-Avant 70 ans  : exonération des droits jusqu’à 152 500 €/bénéficiaire  
-Après 70 ans  : exonération à 30 500 €, reste soumis aux droits de succession  
-Contrat L’Emprunteur Generali – Aspects techniques et juridiques  
-✅ Nature du contrat  
-• Contrat d e prévoyance : décès, incapacité, invalidité  
-• Affectable à tout type de prêt (amortissable, in fine, prêt relais, crédit -bail…)  
-   
-Souscription & Conditions d’éligibilité  
-• Âge à l’adhésion  : o  Décès : jusqu’à 85 ans  
-o PTIA, IP66, IP33, ITT, exonération :  jusqu’à 67 ans  
-• Activité professionnelle obligatoire  pour ITT, IP66, IP33, exonération o  Exceptions : congé 
-maternité, chômage, congé parental, conjoint collaborateur 
-   Assurabilité des fumeurs et activités à 
-risque  :  
-o Vapoteurs = considérés comme fumeurs  
-o Déclaration obligatoire des sports à risque, sinon réduction ou refus de prestation  
-• Convention AERAS appliquée  pour les assurés à risque aggravé de santé  
-   
-Détai l des garanties & plafonds  
-Garantie  Condition  Plafond  
-Décès   Jusqu’à 85 ans  16 000 000 €  
-PTIA   Jusqu’à 70 ans  16 000 000 €  
-IP66   Jusqu’à 70 ans  6 000 000 € en capital ou 300 000 €/an en échéances  
-IP33   Jusqu’à 70 ans  150 000 €/an  
-ITT  Jusq u’à 70 ans  300 000 €/an – max 1095 jours  
-Exonération de 
-cotisations   En lien avec ITT, 
-IP66, IP33  En fonction de la franchise  
-Option Dos/Psy   Sous conditions  Supprime l’obligation d’hospitalisation pour pathologies  
-vertébrales et psychiatriques
-
-18  
-     
-❌ Exclusions principales  
-• Suicide (1re année)
-
-19  
-  Sports extrêmes (voir liste exhaustive : MMA, wingsuit, freeride, etc.)  
-• Pratiques sportives non déclarées  
-• Grossesse (hors maternité pathologique de plus de 5 jours)  
-• États antérieurs non déclarés  
-• Incapa cités liées à l’alcool ou stupéfiants  
-• Zones à risque ou conflits armés  
-NB : avec l’option « Dos/Psy », les affections psychiatriques et dorsales sont couvertes sans 
-hospitalisation .  
-   
-️ Formalités médicales (selon capital + âge)  
-Capital assuré  Jusqu ’à 45 ans  46–65 ans  > 65 ans  
-≤ 200 000 €  QSS  QS  QS  
-200 001 – 300 000 € QS  QS + BS0  QS + RM + BS0  
-QS + BS0 +  QS + RM + BS0 +  
-300 001 – 400 000 € QS  
-COTININE  COTININE  
-400 001 – 750 000 € QS + RM + BS1 + COTININE  Idem  Idem  
-750 001 – 1 000 00 0  
-QS + RM + BS1 + COTININE + ECG1 Idem  Idem  
-€  
-1 000 001 – 1 999  QS + RM + BS1 + EU + COTININE +  
-Idem  Idem  
-999 €  ECG1  
-QS + RM + BS1 + EU + COTININE +  
-≥ 2 000 000 €  Idem  Idem  
-ECG2  
-Tarif non -fumeur conditionné au test de cotinine urinaire  
-Parc ours de souscription & équivalence de garanties  
-Parcours de souscription (hors Loi Lemoine)  
-• Outil utilisé  : plateforme STELLA 
-   Étapes  :
-
-20  
-  1. Saisie du dossier (QSS ou QS)  
-2. Transmission des pièces justificatives (CNI, RIB, mandat SEPA, etc.)  
-3. Réalisation év entuelle de formalités médicales  
-4. Étude du dossier par la sélection du risque  
-5. Prise de décision : tarif normal, majoration, exclusion, refus, ou ajournement  
-6. Signature électronique ou papier du bon pour accord 
-   Centres 
-agréés  : o  Pas d’avance de frais  
-o Transmission automatique des résultats au service médical  
-Spécificité Loi Lemoine  :  
-o Pas de questionnaire médical si capital ≤ 200 000 € et fin du prêt < 60 ans o 
- Émission immédiate du contrat possibleTout savoir sur l'Empru…  
-   
-Règles d’équivalence d e garanties (conformes CCSF)  
-• Depuis le 1er mai 2015 , les banques ne peuvent refuser une délégation que sur la base d’une 
-liste de critères de place réglementée .  
-• En cas de refus non conforme, un modèle de courrier est proposé pour contester auprès de 
-la banque.  
-Exemple : "Certains critères retenus ne font pas partie de la liste imposée par le CCSF. En 
-conséquence votre avis n’est pas recevable et je vous invite à réétudier ma demande."  
-• Les critères doivent figurer sur une fiche standardisée d’équivalence  remise par la banque 
-(max. 11 critères principaux + 4 pour la perte d’emploi).  
-=== UTWIN – Assurance Crédit (via Generali 
-Moov’Emprunteur) ===  
-Contrat d’assurance collective à adhésion facultative  
-• Nom commercial  : Moov’Emprunteur – Contrat n°7336  
-• Assu reur  : Generali Vie  
-• Distributeur  : UTWIN Assurances (mandataire)
+=== UTWIN – Assurance Crédit (via Generali Moov’Emprunteur) === 
+Contrat d’assurance collective à adhésion facultative 
+•	Nom commercial : Moov’Emprunteur – Contrat n°7336 
+•	Assureur : Generali Vie 
+•	Distributeur : UTWIN Assurances (mandataire) 
+•	Adhésion : 100 % digitale, signature électronique, gestion via UTWIN 
+ 	 
+Prêts couverts 
+Type de prêt 	Durée max. Montant max. 	Détails 
+Amortissable (€/devise) 360 mois 	5 000 000 € 	Avec ou sans différé 
+In fine 	240 mois 	5 000 000 € 	— 
+Relais 	36 mois 	2 000 000 € 	— 
+•	Prêts à taux fixe ou variable, avec mensualités constantes ou modulables. • 	Acceptés : Prêts immobiliers, professionnels, mobiliers 
+•	Non acceptés : Regroupement de crédits sans questionnaire de santé 
+ 	 
+Conditions d’adhésion & assurabilité 
+Âge à l'adhésion : 
+o	18 à 65 ans pour les garanties complètes 
+o	66 à 80 ans : garanties limitées (Décès uniquement) 
+•	Montant maximal assuré : 5 000 000 € par assuré 
+•	Résidence : UE, DROM, Monaco, Suisse, Canada, Japon, etc. (voir restrictions par pays) 
+•	Professions atypiques : acceptées sous réserve de sélection médicale 
+•	Garanties irrévocables une fois mises en place 
+ 	 
+Garanties proposées 
+Option 	Garanties 
+1	Décès / PTIA 
+2	Décès / PTIA / ITT / ITP / IPT 
+3	Décès / PTIA / ITT / ITP / IPT / IPP 
+4	Décès uniquement (option Senior) 
+ 	 
+Durée & franchises 
+•	Garanties cessent : 
+o	Décès : 85 ans o 	PTIA : 71 ans 
+o	ITT, ITP, IPT, IPP : entre 65 et 71 ans selon l’option choisie 
+•	Franchises : 30, 60, 90, 120, 180 jours o 	Minimum 90 jours en absence de questionnaire médical 
+•	Rechutes prises en charge si < 120 jours 
+ 	 
+Cotisation & exonération 
+•	Cotisation sur capital initial (linéaire) ou capital restant dû (CRD) 
+•	Prélèvement en France uniquement 
+•	Exonération de cotisation si indemnisation (ITT, IPP, etc.) o 	IPP = exonération à 50 % des cotisations 
+ 	 
+Modalités de prise en charge (selon garantie) 
+Garantie 	Montant pris en charge 
+Décès/PTIA CRD ou capital initial selon type de prêt 
+ 
+Garantie 	Montant pris en charge 
+ITT 	Échéances mensuelles 
+IPT 	Capital restant dû 
+ITP/IPP 	50 % des échéances 
+ 	 
+Exclusions spécifiques (non exhaustive) 
+•	Suicide (si < 1 an sauf prêt immo RP < 120 000 €) 
+•	Affections dorsales/psychiatriques (sauf rachat ou hospitalisation > 4/5 jours) 
+•	Grossesse (sauf pathologie post-congé maternité) 
+•	Sports extrêmes, activités à moteur, navigation non civile 
+•	Actes intentionnels ou participation à des rixes 
+•	Pathologies ou accidents antérieurs non déclarés Informations générales 
+•	Assureur : Quatrem (Groupe Malakoff Humanis) 
+•	Gestionnaire : UTWIN Assurances 
+•	Souscripteur : Association des Assurés pour une Protection Solidaire • 	Contrats disponibles : o 	CRD (capital restant dû) o 	Linéaire (capital initial constant) 
+•	Références contrats : 2021UTW01, 2021UTW02_AERAS 
+ 	 
+Prêts éligibles 
+Type de prêt 	Durée max 	Conditions 
+Prêt amortissable 360 mois 	Taux fixe ou variable, à échéances constantes ou modulables 
+Prêt in fine 	240 mois 	Uniquement si sélection médicale effectuée 
+Prêt relais 	36 mois 	Idem (sélection médicale requise) 
+Non éligibles : crédits renouvelables, conso, viagers, entre particuliers, Europlan, crédits vendeurs, participatifs, etc. 
+ 	 
+Conditions d’adhésion 
+•	Personne physique ou morale • 	Âge à l’adhésion : 
+o	Décès : jusqu’à 85 ans 
+o	Garanties complémentaires : jusqu’à 64 ans 
+•	Montant minimum garanti : 17 000 € 
+•	Absence de formalités médicales possible si : o 	Prêt immobilier ≤ 200 000 € o 	Remboursé avant 60 ans 
+ 	 
+Garanties proposées 
+Garantie 	Détails 
+Décès 	Jusqu’à 91 ans, remboursement du capital restant dû 
+PTIA 	Jusqu’à 71 ans, capital remboursé 
+ITT 	Échéances prises en charge pendant l’arrêt total de travail 
+IPT 	Taux ≥ 66 %, échéances remboursées 
+IPP 	Taux 33–66 %, prise en charge à 50 % 
+Invalidité Spécifique (GIS) Pour profils AERAS uniquement (≥ 70 % fonctionnelle + invalidité pro) 
+Les garanties ITT/IPT/IPP/IP Spécifique prennent fin à 65 ou 67 ans selon l’option choisie. 
+ 	 
+Option “Rachat dos et psy” 
+•	Couvre affections vertébrales & psychiatriques sans hospitalisation • 	Exemples : hernie discale, lombalgie, burn-out, schizophrénie, TOC, etc. 
+•	Souscription uniquement à l’adhésion (ou dans les 6 mois si exigée par la banque) 
+ 	 
+Franchises & délais 
+•	Franchises disponibles : 30, 60, 90, 120, 180 jours o 	90 j minimum en cas d’adhésion sans sélection médicale 
+•	Délai d’attente : 3 mois si le prêt est en cours et jamais assuré auparavant 
+•	Rechutes prises en charge si < 2 mois après reprise 
+ 	 
+Cotisation 
+•	Mode CRD ou Linéaire 
+•	Base : montant garanti, durée, âge 
+•	Paiement : mensuel, trimestriel ou annuel (par prélèvement UE) 
+•	Exonération des cotisations en cas de sinistre ITT/IPT/IPP 
+ 	 
+Couverture territoriale  
+•	Monde entier (avec constat médical local ou en France)  
+•	Taux de change géré pour les prêts en francs suisses  
+•	Indemnisation en euros uniquement  
+ 	 
+Exclusions principales  
+•	Suicide (1re année sauf résidence principale ≤ 120 000 €)  
+•	Affections psychiatriques et dorsales (sauf rachat ou > 8 j d’hospitalisation)  
+•	Sports à moteur ou extrêmes (sauf déclaration acceptée)  
+•	État d’ébriété, usage de stupéfiants, guerres, tentatives de suicide  
+•	Activité non déclarée ou antécédents non révélés  
+•	Radiations atomiques (hors traitement médical)  
+ Informations générales  
+Montant 
+Contrat  	Assureur 	Mode  	Durée max.  Notes  max.  
+MNCap 
+Linéaire  	Capital 
+MNCap Assurances  
+initial  	Jusqu'à 5 000 Jusqu'à 360 Emprunteur de 18 à 80 
+000 € 	mois  	ans  
+Fidelidade 
+Premium  	Fidelidade Companhia 
+CRD  de Seguros S.A.  	Jusqu'à 2 000 	Contrat portugais 
+360 mois  
+000 €  	distribué via UTWIN  
+Prévoir Elit 
+CRD  	PRÉVOIR VIE 	CRD  	Jusqu'à 10 	480 mois 	Inclut Garantie Aide à 000 000 € 	(40 ans)  	la Famille et GIS  
+ 	 
+Conditions d’adhésion  
+•	Personne physique de 18 à 80 ans (selon garantie)  • 	Résidence UE, DOM-TOM, Monaco, etc.  
+•	Souscription possible sans formalités médicales dans certains cas (Loi Lemoine)  • 	Prêts acceptés : amortissables, in fine, relais, achat-revente, taux fixe/variable  • 	Prêts exclus : crédits conso, Europlan, viagers, prêts > 40 ans, etc.  
+ 	 
+Garanties proposées (selon contrat) 
+Garantie 	MNCap 	Fidelidade 	Prévoir 
+Décès 	✔ ✔ 	✔ 
+Garantie 	MNCap 	Fidelidade 	Prévoir 
+PTIA 	✔ 	✔ 	✔ 
+ITT 	✔ 	✔ 	✔ 
+IPT 	✔ 	✔ 	✔ 
+IPP 	✔ 	✔ 	✔ 
+Aide à la famille (GAF) 	❌ 	❌ 	✔ 
+Invalidité Spécifique (GIS) ❌ 	✔ (via AERAS) ✔ 
+Affections dos/psy 	Option Option 	Option 
+ 	 
+Franchises et indemnisation 
+•	Franchises au choix : 30, 60, 90, 120, 180 jours 
+•	Franchise minimum : 90 jours si pas de sélection médicale 
+•	Rechute : reprise sans nouvelle franchise si reprise < 2 mois 
+ 	 
+ Modalités financières 
+•	Cotisations : linéaires ou CRD selon contrat 
+•	Paiement : mensuel, trimestriel, annuel 
+•	Exonération possible en cas d’ITT/IPT/IPP 
+•	Majoration selon profession, âge, état de santé 
+ 	 
+Exclusions majeures 
+•	Suicide (1re année sauf prêt résidence principale) 
+•	Affections dorsales ou psychiatriques (sauf option ou hospitalisation longue) • 	Sports extrêmes, sports à moteur, aviation, etc. 
+•	Conduite en état d’ivresse ou sous stupéfiants 
+•	Pathologies antérieures non déclarées 
+•	Risques de guerre ou nucléaire 
+Changement d’assurance emprunteur 
+Démarches en cas de délégation bancaire (changement avec délégation) 
+•	UTWIN envoie un SMS sous 48h après signature du contrat. 
+•	UTWIN adresse à la banque par recommandé : 
+o	Le mandat de substitution 
+o	La notice d'information o 	Le certificat d'adhésion o 	La délégation de bénéfice 
+•	La banque a 10 jours pour répondre : o 	Pas de réponse = acceptation tacite 
+o	Refus = la banque doit motiver par écrit (vous pouvez contester) o 	Acceptation = vous recevez un avenant à l’offre de prêt • 	Vous devez : o 	Signer et renvoyer l’avenant à votre banque après le délai légal de 10 jours o 	L’envoyer aussi à UTWIN par email pour activer votre contrat 
+•	Tant que l’avenant n’est pas signé, la banque continue les anciens prélèvements utwin_ec_changement_ass…utwin_ec_changement_ass… 
+ 	 
+Démarches en cas de changement sans délégation bancaire 
+•	Même processus, mais sans délégation de bénéfice. 
+•	UTWIN prend en charge l'envoi des documents. 
+•	Vous devez impérativement transmettre l’avenant signé à UTWIN pour activer la prise d’effet du nouveau contrat. 
+ 	 
+Garantie IPPRO – Invalidité Professionnelle (spécifique professions médicales) 
+Cible 
+•	Réservée aux : o 	Médecins, chirurgiens, dentistes, internes, sages-femmes o 	Kinésithérapeutes, pharmaciens, vétérinaires, ostéopathes 
+Avantages de l’IPPRO 
+•	Évaluation de l’invalidité sur un barème professionnel, plus favorable que le barème croisé. 
+•	Offre une meilleure couverture, adaptée à la réalité de la profession. 
+•	Protège contre une vente rapide du bien immobilier pour raisons financières. Modalités 
+Formule IPPRO 	Taux requis 	Prise en charge 
+Totale 	≥ 66 % 	100 % du capital ou mensualité 
+Partielle (modulée) Dès 33 % ou 15 % 50 % ou 25 % de la mensualité 
+•	Limite d’âge à l’adhésion : 65 ou 70 ans 
+•	Prestation versée : mensualité ou capital, selon le contrat 
+Loi Lemoine (en vigueur depuis 2022) 
+1.	Suppression du questionnaire de santé 
+•	Applicable si : o 	Capital à assurer ≤ 200 000 € 
+o 	Fin du prêt avant le 60e anniversaire de l'assuré 
+•	S’applique à tous les prêts immobiliers à usage d’habitation 
+•	Inapplicable aux prêts professionnels ou travaux seuls 
+2.	Extension du droit à l’oubli 
+•	Nouveau délai réduit à 5 ans (depuis la fin du protocole thérapeutique) 
+•	Cancers et hépatite C : non déclarés au-delà de 5 ans 
+•	Autres pathologies : toujours déclarables si présentes 
+3.	Résiliation à tout moment 
+•	Sans frais ni préavis 
+•	Possible même sur les contrats en cours 
+•	Nécessite une demande de substitution avec avenant à l’offre de prêt utwin_linfo_lemoine_112…utwin_linfo_lemoine_web… 
+ 	 
+ Reprise d’assurance avec UTWIN 
+ Définition 
+La reprise permet à l’assuré de changer de contrat d’assurance emprunteur à tout moment, pour obtenir de meilleures garanties ou des tarifs plus avantageux. 
+Profil des prêts et emprunteurs éligibles 
+•	Personnes physiques ou SCI 
+•	Achat immobilier, usage mixte, terrain à bâtir 
+•	Crédits à usage d’habitation uniquement 
+•	Prêts à 1 % logement, SCPI (si objet = habitation) 
+Démarche standard de reprise UTWIN 
+Étape 	Délai moyen 
+Signature du contrat 	J 
+Envoi LRE à la banque 	J+1 
+Réponse ou silence banque 	J+10 (acceptation tacite si silence) 
+Étape 	Délai moyen 
+Envoi de l’avenant par la banque 	J+15 à J+27 
+Signature et retour de l’avenant par le client J+30 
+Résiliation ancien contrat 	À réception avenant signé 
+ Scénarios spécifiques 
+•	Refus banque : UTWIN prépare un dossier “Refus banque” avec justificatifs • 	Relances multiples possibles si réponse manquante à J+22, J+37, etc. 
+•	Signalement possible sur SignalConso.gouv.fr en cas de blocage abusif utwin_linfo_reprise_202… 
+ 	 
+Avantages de la reprise UTWIN 
+Pour l’assuré 
+•	Jusqu’à 50 % d’économie vs. contrat groupe 
+•	Couverture souvent plus protectrice 
+•	Accompagnement personnalisé, expert de la substitution 
+Pour le courtier 
+•	Parcours fluide, signature électronique 
+•	Revenu récurrent sur 8 ans en moyenne 
+•	Gestion externalisée (sinistres, substitutions) 
+ Les 3 modes de cotisation UTWIN 
+1.	Cotisation en Capital Restant Dû (CRD) 
+•	Prime recalculée chaque année sur le capital restant à rembourser 
+•	Avantage : coût global compétitif sur la durée du prêt 
+•	Cible : emprunteurs avec prêt long (>8 ans) 
+2.	Cotisation Dégressive par paliers 
+•	Prime dégressive et jamais supérieure à la 1ère année 
+•	Avantage : tarif avantageux dès les premières années 
+•	Cible : emprunteurs envisageant de revendre ou rembourser dans les 10 premières années 
+3.	Cotisation Linéaire 
+•	Prime constante pendant toute la durée du prêt 
+•	Avantage : budget fixe et lisibilité 
+•	Cible : comparaison simple en cas de substitution d’assuranceutwin-3-modes-de-cotisa… 
+ 	 
+ UTWIN – Gamme des 7 offres multi-assureurs 
+(comparatif 2025) 
+Garanties 
+Offre cible UTWIN 	Type de profil 	Capitaux max. 	Âge max 	proposées 
+Jeunes couples / 	Sans sélection 
+3 à 10 M€ 
+Reprise 	médicale 	Jusqu'à 91 ans (DC) 	DC, PTIA, ITT, IPT, IPP, IPPRO 
+Sélection médicale 
+Professionnels 	Jusqu'à 20 M€ 
+ou IPPRO 	Jusqu'à 71 ans (garanties) 	Inclus IPPRO, Aide à la famille 
+Seniors / gros 	Jusqu’à 30 000 
+CRD ou linéaire capitaux 	€/mois (ITT/IPT) 	Jusqu’à 91 ans 	Options renforcées dos/psy 
+•	Tous les contrats assurent : DC, PTIA, ITT, IPT, IPP 
+•	Les options varient selon profil (IPPRO, GAF, franchise personnalisable, mode de remboursement…) 
+•	Couverture possible dans le monde entier • 	Ciblage adapté : 
+o	Résidents UE, DROM, Suisse 
+o	Expatriés dans certains pays (Am. Nord, Asie…) o 	Frontaliers, SCI (si usage habitation) 
+ Particularités 
+•	Limites d’âge à l’adhésion : généralement entre 65 et 80 ans 
+•	Limites de garanties : jusqu’à 91 ans (décès), 65–71 ans (ITT/IPT/IPP) 
+•	Franchise ITT : 30 à 180 jours, min. 90 jours si sans sélection médicale 
+•	IPPRO : professions médicales/paramédicales uniquement, versement CRD ou mensualité partielle 
