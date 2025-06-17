@@ -1,4 +1,4 @@
-flask
+flask[async]
 flask-session 
 google-generativeai 
 markdown
@@ -6,9 +6,10 @@ pandas
 PyPDF2
 flask_cors
 python-dotenv
-
-
-
+PyMuPDF
+sentence-transformers
+faiss-cpu
+nest_asyncio
 
 
 

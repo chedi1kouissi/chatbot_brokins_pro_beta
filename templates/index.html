@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brokins Insurance Chatbot</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .chat-container {
+            height: calc(100vh - 180px);
+        }
+        .message {
+            max-width: 80%;
+            margin: 8px;
+            padding: 12px;
+            border-radius: 15px;
+        }
+        .user-message {
+            background-color: #1a73e8;
+            color: white;
+            margin-left: auto;
+        }
+        .bot-message {
+            background-color: #f1f3f4;
+            color: black;
+            margin-right: auto;
+        }
+        .typing-indicator {
+            display: none;
+            padding: 12px;
+            background-color: #f1f3f4;
+            border-radius: 15px;
+            margin: 8px;
+            width: fit-content;
+        }
+        .dot {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            margin-right: 3px;
+            background: #666;
+            border-radius: 50%;
+            animation: wave 1.3s linear infinite;
+        }
+        .dot:nth-child(2) { animation-delay: -1.1s; }
+        .dot:nth-child(3) { animation-delay: -0.9s; }
+
+        @keyframes wave {
+            0%, 60%, 100% { transform: translateY(0); }
+            30% { transform: translateY(-4px); }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg">
+            <!-- Header -->
+            <div class="bg-blue-600 text-white px-6 py-4 rounded-t-lg">
+                <h1 class="text-xl font-bold">Brokins Insurance Chatbot</h1>
+                <p class="text-sm opacity-80">Assistant virtuel spécialisé en assurance</p>
+            </div>
+
+            <!-- Chat Messages -->
+            <div class="chat-container overflow-y-auto p-4" id="chatContainer">
+                <!-- Messages will be inserted here -->
+                <div class="bot-message message">
+                    Bonjour ! Je suis l'assistant Brokins. Comment puis-je vous aider avec les contrats d'assurance aujourd'hui ?
+                </div>
+                <div class="typing-indicator" id="typingIndicator">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="border-t p-4">
+                <form id="chatForm" class="flex gap-2">
+                    <input type="text" 
+                           id="userInput" 
+                           class="flex-1 px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
+                           placeholder="Posez votre question ici..."
+                           required>
+                    <button type="submit" 
+                            class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">
+                        Envoyer
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const chatForm = document.getElementById('chatForm');
+        const userInput = document.getElementById('userInput');
+        const chatContainer = document.getElementById('chatContainer');
+        const typingIndicator = document.getElementById('typingIndicator');
+
+        function addMessage(content, isUser = false) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'user-message' : 'bot-message'}`;
+            messageDiv.textContent = content;
+            
+            // Insert before typing indicator
+            chatContainer.insertBefore(messageDiv, typingIndicator);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        function showTypingIndicator() {
+            typingIndicator.style.display = 'block';
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        function hideTypingIndicator() {
+            typingIndicator.style.display = 'none';
+        }
+
+        chatForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const question = userInput.value.trim();
+            if (!question) return;
+
+            // Add user message
+            addMessage(question, true);
+            userInput.value = '';
+
+            // Show typing indicator
+            showTypingIndicator();
+
+            try {
+                const response = await fetch('/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ question }),
+                });
+
+                const data = await response.json();
+                
+                // Hide typing indicator and add bot response
+                hideTypingIndicator();
+                addMessage(data.answer);
+            } catch (error) {
+                hideTypingIndicator();
+                addMessage("Désolé, une erreur s'est produite. Veuillez réessayer.");
+                console.error('Error:', error);
+            }
+        });
+    </script>
+</body>
+</html> 
