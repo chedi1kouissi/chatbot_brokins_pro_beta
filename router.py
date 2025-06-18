@@ -2,10 +2,12 @@
 import json
 import logging
 from typing import Dict, List, Union
+import asyncio
+from concurrent.futures import ThreadPoolExecutor
 
 import google.generativeai as genai
 
-from config import ROUTER_MODEL, INSURER_AGENTS
+from config import ROUTER_MODEL, INSURER_AGENTS, GEMINI_API_KEY
 from prompt import ROUTER_PROMPT
 
 # ANSI escape codes for colors
@@ -19,26 +21,20 @@ class Router:
     def __init__(self):
         """Initializes the Router with the list of insurer names."""
         self.insurer_names = list(INSURER_AGENTS.keys())
+        self.executor = ThreadPoolExecutor(max_workers=1)
 
-    async def classify_question(self, question: str) -> Dict[str, Union[str, List[str]]]:
+    def _sync_classify_question(self, question: str) -> Dict[str, Union[str, List[str]]]:
         """
-        Classifies the user's question using the Gemini API.
-
-        Args:
-            question (str): The user's question in French.
-
-        Returns:
-            A dictionary containing the classification type and target insurers.
+        Classifies the user's question synchronously using the Gemini API.
         """
-        model = genai.GenerativeModel(ROUTER_MODEL)
         prompt = ROUTER_PROMPT.format(
             insurer_names=self.insurer_names, question=question
         )
-        logging.info(f"{C_BLUE}[Router] Classifying question...{C_END}")
-        logging.info(f"[Router] Prompt: {prompt[:200]}...") # Log first 200 chars
-
+        
         try:
-            response = await model.generate_content_async(prompt)
+            genai.configure(api_key=GEMINI_API_KEY)
+            model = genai.GenerativeModel(ROUTER_MODEL)
+            response = model.generate_content(prompt)
             # Clean up the response to ensure it's valid JSON
             cleaned_response = response.text.strip().replace("```json", "").replace("```", "")
             route = json.loads(cleaned_response)
@@ -54,3 +50,12 @@ class Router:
         except Exception as e:
             logging.error(f"[Router] Error during classification: {e}")
             return {"type": "general_inquiry", "insurers": []}
+
+    async def classify_question(self, question: str) -> Dict[str, Union[str, List[str]]]:
+        """
+        Classifies the user's question using the Gemini API, running the
+        synchronous classification in a thread pool.
+        """
+        logging.info(f"{C_BLUE}[Router] Classifying question...{C_END}")
+        loop = asyncio.get_event_loop()
+        return await loop.run_in_executor(self.executor, self._sync_classify_question, question)

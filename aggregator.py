@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 import logging
+import asyncio
+from concurrent.futures import ThreadPoolExecutor
 import google.generativeai as genai
 from typing import List, Dict
 
-from config import AGGREGATOR_MODEL
+from config import AGGREGATOR_MODEL, GEMINI_API_KEY
 from prompt import AGGREGATOR_PROMPT
 
 # ANSI escape codes for colors
@@ -18,7 +20,7 @@ class Aggregator:
 
     def __init__(self):
         """Initialize the Aggregator."""
-        pass
+        self.executor = ThreadPoolExecutor(max_workers=1)
 
     def _format_snippets(self, snippets: List[Dict]) -> str:
         """
@@ -43,20 +45,10 @@ class Aggregator:
                 )
         return "\n".join(formatted_snippets)
 
-    async def synthesize(self, question: str, snippets: List[Dict]) -> str:
+    def _sync_synthesize(self, question: str, snippets: List[Dict]) -> str:
         """
-        Synthesizes a final response from multiple agent snippets using the Gemini API.
-
-        Args:
-            question: The original user question.
-            snippets: A list of structured responses from the agents.
-
-        Returns:
-            A synthesized, professional response in French.
+        Synthesizes a final response from multiple agent snippets synchronously.
         """
-        logging.info(f"{C_YELLOW}[Aggregator] Synthesizing answer...{C_END}")
-        logging.info(f"[Aggregator] Received {len(snippets)} snippets for question: '{question}'")
-
         if not any(s.get("can_answer") for s in snippets):
             logging.warning("[Aggregator] No snippets contained a valid answer.")
             return "Désolé, aucun de nos assureurs partenaires n'a pu fournir d'information pertinente pour répondre à votre question."
@@ -65,17 +57,28 @@ class Aggregator:
         prompt = AGGREGATOR_PROMPT.format(
             question=question, snippets=formatted_snippets
         )
-        logging.info(f"[Aggregator] Prompt: {prompt[:300]}...") # Log first 300 chars
-
+        
         try:
-            model = genai.GenerativeModel(AGGREGATOR_MODEL) # Create model inside the async method
-            response = await model.generate_content_async(prompt)
+            genai.configure(api_key=GEMINI_API_KEY)
+            model = genai.GenerativeModel(AGGREGATOR_MODEL)
+            response = model.generate_content(prompt)
             final_answer = response.text.strip()
             logging.info(f"{C_GREEN}[Aggregator] Synthesis successful.{C_END}")
             return final_answer
         except Exception as e:
             logging.error(f"[Aggregator] Error during synthesis: {e}. Falling back to simple aggregation.")
             return self._simple_aggregation(snippets)
+
+    async def synthesize(self, question: str, snippets: List[Dict]) -> str:
+        """
+        Synthesizes a final response from multiple agent snippets using the Gemini API,
+        running the synchronous synthesis in a thread pool.
+        """
+        logging.info(f"{C_YELLOW}[Aggregator] Synthesizing answer...{C_END}")
+        logging.info(f"[Aggregator] Received {len(snippets)} snippets for question: '{question}'")
+
+        loop = asyncio.get_event_loop()
+        return await loop.run_in_executor(self.executor, self._sync_synthesize, question, snippets)
 
     def _simple_aggregation(self, snippets: List[Dict]) -> str:
         """

@@ -2,11 +2,13 @@
 import os
 import logging
 from typing import Dict
+import asyncio
+from concurrent.futures import ThreadPoolExecutor
 
 import google.generativeai as genai
 
 from .base_interface import BaseInsurerAgent
-from config import INSURER_AGENT_MODEL
+from config import INSURER_AGENT_MODEL, GEMINI_API_KEY
 from prompt import INSURER_AGENT_PROMPT
 
 C_CYAN = '\033[96m'
@@ -20,6 +22,7 @@ class ApiviaAgent(BaseInsurerAgent):
         super().__init__(insurer_name="apivia", model_name=INSURER_AGENT_MODEL)
         self.file_path = file_path
         self._contract_text = None
+        self.executor = ThreadPoolExecutor(max_workers=1)
 
     def load_contract(self) -> str:
         """Loads the Apivia contract text from the corresponding data file."""
@@ -32,11 +35,10 @@ class ApiviaAgent(BaseInsurerAgent):
                 self._contract_text = "Le fichier de contrat est introuvable."
         return self._contract_text
 
-    async def get_snippet(self, question: str) -> Dict[str, any]:
+    def _sync_get_snippet(self, question: str) -> Dict[str, any]:
         """
-        Analyzes the contract to find a relevant snippet for the user's question.
+        Analyzes the contract synchronously to find a relevant snippet.
         """
-        logging.info(f"{C_CYAN}[Agent] Running {self.insurer_name.upper()}...{C_END}")
         contract_text = self.load_contract()
         prompt = INSURER_AGENT_PROMPT.format(
             insurer_name=self.insurer_name.upper(),
@@ -45,8 +47,9 @@ class ApiviaAgent(BaseInsurerAgent):
         )
 
         try:
+            genai.configure(api_key=GEMINI_API_KEY)
             model = genai.GenerativeModel(self.model_name)
-            response = await model.generate_content_async(prompt)
+            response = model.generate_content(prompt)
             snippet = response.text.strip()
             logging.info(f"[Agent/{self.insurer_name.upper()}] Snippet found: '{snippet[:100]}...'")
             
@@ -64,3 +67,12 @@ class ApiviaAgent(BaseInsurerAgent):
                 "can_answer": False,
                 "snippet": f"Une erreur est survenue lors de l'analyse du contrat {self.insurer_name.upper()}.",
             }
+
+    async def get_snippet(self, question: str) -> Dict[str, any]:
+        """
+        Analyzes the contract to find a relevant snippet for the user's question,
+        using a thread pool to run the synchronous analysis.
+        """
+        logging.info(f"{C_CYAN}[Agent] Running {self.insurer_name.upper()}...{C_END}")
+        loop = asyncio.get_event_loop()
+        return await loop.run_in_executor(self.executor, self._sync_get_snippet, question)

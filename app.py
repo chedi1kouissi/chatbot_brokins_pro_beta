@@ -7,7 +7,6 @@ from flask_cors import CORS
 from dotenv import load_dotenv
 
 import google.generativeai as genai
-import nest_asyncio
 
 from config import GEMINI_API_KEY
 from prompt import GREETING_RESPONSE, OFF_TOPIC_RESPONSE
@@ -16,8 +15,6 @@ from agents.all_insurers_agent import AllInsurersAgent
 from aggregator import Aggregator
 
 # --- Pre-init ---
-# Apply nest_asyncio patch to allow nested event loops
-nest_asyncio.apply()
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -59,10 +56,20 @@ def ask():
     if not question:
         return jsonify({"error": "Missing 'question' in request body"}), 400
 
+    def run_async_task():
+        """Creates and manages a new event loop for the async task."""
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+        try:
+            # Run the async handler and get the result
+            result = loop.run_until_complete(handle_request_async(question))
+            return result
+        finally:
+            # Ensure the loop is closed
+            loop.close()
+
     try:
-        # Run the entire async workflow for the request using asyncio.run()
-        # This creates a new event loop for each request, solving the "closed loop" issue.
-        answer = asyncio.run(handle_request_async(question))
+        answer = run_async_task()
         return jsonify({"answer": answer})
 
     except Exception as e:
@@ -81,6 +88,14 @@ async def handle_request_async(question: str):
         return GREETING_RESPONSE
     if route_type == 'off_topic':
         return OFF_TOPIC_RESPONSE
+    
+    # Handle Brokins inquiry by calling the dedicated agent and returning its response directly
+    if route_type == 'brokins_inquiry':
+        brokins_snippets = await all_insurers_agent.get_snippets(question, agent_names=['brokins'])
+        if brokins_snippets and brokins_snippets[0].get("can_answer"):
+            return brokins_snippets[0]['snippet']
+        else:
+            return "Désolé, je n'ai pas pu récupérer les informations sur Brokins pour le moment."
 
     # 3. For insurance queries, run the appropriate agent(s)
     snippets = []

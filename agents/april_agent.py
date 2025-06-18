@@ -4,22 +4,12 @@ import os
 import logging
 from typing import Dict, List
 import asyncio
-from dotenv import load_dotenv
+from concurrent.futures import ThreadPoolExecutor
+
 from agents.base_interface import BaseInsurerAgent
 import google.generativeai as genai
 from prompt import INSURER_AGENT_PROMPT
 from config import INSURER_AGENT_MODEL, GEMINI_API_KEY, INSURER_AGENTS
-
-# Load environment variables from .env file
-load_dotenv()
-
-# Get API key from environment
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-if not GEMINI_API_KEY:
-    raise ValueError("GEMINI_API_KEY not found in environment variables.")
-
-# Configure Gemini
-genai.configure(api_key=GEMINI_API_KEY)
 
 C_CYAN = '\033[96m'
 C_END = '\033[0m'
@@ -34,6 +24,8 @@ class AprilAgent(BaseInsurerAgent):
         super().__init__(insurer_name="april", model_name=INSURER_AGENT_MODEL)
         self.file_paths = file_paths
         self._contract_chunks = None
+        # Use a thread pool to run sync calls in an async context
+        self.executor = ThreadPoolExecutor(max_workers=2)
 
     def load_contract(self) -> str:
         """
@@ -57,8 +49,8 @@ class AprilAgent(BaseInsurerAgent):
         except Exception as e:
             return f"Erreur de lecture du document {os.path.basename(file_path)}: {e}"
 
-    async def _analyze_chunk(self, question: str, contract_text: str, source_name: str) -> str:
-        """Analyzes a single contract chunk."""
+    def _sync_analyze_chunk(self, question: str, contract_text: str, source_name: str) -> str:
+        """Analyzes a single contract chunk synchronously."""
         prompt = INSURER_AGENT_PROMPT.format(
             insurer_name=f"{self.insurer_name.upper()} ({source_name})",
             contract_text=contract_text,
@@ -66,8 +58,10 @@ class AprilAgent(BaseInsurerAgent):
         )
         logging.info(f"[Agent/APRIL] Analyzing chunk: {source_name}")
         try:
+            # Re-configure for the new thread
+            genai.configure(api_key=GEMINI_API_KEY)
             model = genai.GenerativeModel(self.model_name)
-            response = await model.generate_content_async(prompt)
+            response = model.generate_content(prompt) # Sync call
             snippet = response.text.strip()
             logging.info(f"[Agent/APRIL/{source_name}] Snippet found: '{snippet[:100]}...'")
             return snippet
@@ -77,15 +71,16 @@ class AprilAgent(BaseInsurerAgent):
 
     async def get_snippet(self, question: str) -> dict:
         """
-        Loads contract chunks, analyzes them in parallel, and combines the results.
+        Loads contract chunks, analyzes them in parallel using a thread pool, and combines the results.
         """
         logging.info(f"{C_CYAN}[Agent] Running {self.insurer_name.upper()} (in parallel)...{C_END}")
         contract_chunks = {
             os.path.basename(path): self._load_chunk(path) for path in self.file_paths
         }
 
+        loop = asyncio.get_event_loop()
         tasks = [
-            self._analyze_chunk(question, text, name)
+            loop.run_in_executor(self.executor, self._sync_analyze_chunk, question, text, name)
             for name, text in contract_chunks.items()
         ]
         

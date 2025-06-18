@@ -59,7 +59,11 @@ INSURER_AGENTS = {
         "file_path": os.path.join(DATA_DIR, "utwin.txt")
     },
     "zenioo-mncap": {
-        "agent_class": "ZeniooMNCAPAgent",
+        "agent_class": "ZeniooMncapAgent",
         "file_path": os.path.join(DATA_DIR, "zenioo-mncap.txt")
+    },
+    "brokins": {
+        "agent_class": "BrokinsAgent",
+        "file_path": os.path.join(DATA_DIR, "brokins.txt")
     }
 }
