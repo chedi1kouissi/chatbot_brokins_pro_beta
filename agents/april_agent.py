@@ -72,6 +72,7 @@ class AprilAgent(BaseInsurerAgent):
     async def get_snippet(self, question: str) -> dict:
         """
         Loads contract chunks, analyzes them in parallel using a thread pool, and combines the results.
+        Markdown formatting is applied to the output for better display.
         """
         logging.info(f"{C_CYAN}[Agent] Running {self.insurer_name.upper()} (in parallel)...{C_END}")
         contract_chunks = {
@@ -90,9 +91,10 @@ class AprilAgent(BaseInsurerAgent):
         for result, name in zip(results, contract_chunks.keys()):
             if isinstance(result, Exception):
                 logging.error(f"Error processing future for {name}: {result}")
-                snippets.append(f"Source ({name}): Erreur d'analyse.")
+                snippets.append(f"**Source ({name}):** Erreur d'analyse.")
             elif "AUCUNE INFORMATION PERTINENTE" not in result:
-                snippets.append(f"Source ({name}): {result}")
+                # Add Markdown bold for source and double newlines for paragraph separation
+                snippets.append(f"**Source ({name}):**\n{result}\n\n")
 
         if not snippets:
             final_snippet = "Aucune information pertinente trouvée dans les documents April."
@@ -104,5 +106,6 @@ class AprilAgent(BaseInsurerAgent):
         return {
             "insurer": self.insurer_name,
             "can_answer": can_answer,
-            "snippet": f"Pour {self.insurer_name.upper()}:\n{final_snippet}" if can_answer else final_snippet,
+            # Add Markdown header for insurer name
+            "snippet": f"### Pour {self.insurer_name.upper()} :\n\n{final_snippet}" if can_answer else final_snippet,
         }

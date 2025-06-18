@@ -5,6 +5,7 @@ import logging
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from dotenv import load_dotenv
+import markdown
 
 import google.generativeai as genai
 
@@ -70,7 +71,9 @@ def ask():
 
     try:
         answer = run_async_task()
-        return jsonify({"answer": answer})
+        # Convert Markdown to HTML before sending to frontend
+        html_answer = markdown.markdown(answer)
+        return jsonify({"answer": html_answer})
 
     except Exception as e:
         logging.error(f"An unexpected error occurred in /ask endpoint: {e}", exc_info=True)

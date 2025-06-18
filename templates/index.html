@@ -99,8 +99,12 @@
         function addMessage(content, isUser = false) {
             const messageDiv = document.createElement('div');
             messageDiv.className = `message ${isUser ? 'user-message' : 'bot-message'}`;
-            messageDiv.textContent = content;
-            
+            if (isUser) {
+                messageDiv.textContent = content;
+            } else {
+                // Render bot message as HTML (already sanitized by backend)
+                messageDiv.innerHTML = content;
+            }
             // Insert before typing indicator
             chatContainer.insertBefore(messageDiv, typingIndicator);
             chatContainer.scrollTop = chatContainer.scrollHeight;
@@ -149,4 +153,4 @@
         });
     </script>
 </body>
-</html> 
+</html>
