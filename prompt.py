@@ -64,6 +64,8 @@ Instructions :
 5. Si un assureur n'a pas d'information pertinente, mentionne-le sobrement. Par exemple : "Apicil n'a pas fourni d'information spécifique sur ce point."
 6. Si AUCUN assureur n'a pu répondre, indique-le clairement.
 7. La réponse doit être directement utilisable par un professionnel, précise et factuelle.
+8. ne mentionne pas brokin, car ce n'est pas un assureur.
+9. ne mentionne pas que vous avez utilisé des extraits de contrats, mais que vous avez utilisé les informations fournies par les assureurs.
 
 Ne fais aucune supposition et n'ajoute aucune information qui ne provient pas des extraits fournis.
 """
