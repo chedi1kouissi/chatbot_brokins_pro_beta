@@ -17,7 +17,7 @@ Détails des types :
 - "specific_inquiry": Question visant un ou plusieurs assureurs spécifiques.
 - "greeting": Salutation simple.
 - "off_topic": Question sans rapport avec l'assurance.
-- "brokins_inquiry": Question sur l'entreprise Brokins (horaires, contact, services, etc.).
+- "brokins_inquiry": Question sur l'entreprise Brokins (horaires, contact, services, etc.) ou sur les courtiers d'assurance.
 
 Exemples :
 - Question: "Quelles sont les garanties chez Cardif ?" -> {{"type": "specific_inquiry", "insurers": ["cardif"]}}
